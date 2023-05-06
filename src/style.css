@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+/* main page */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+  padding-left: 50px;
+  height: 80px;
+  background-color: antiquewhite;
+}
+nav {
+  gap: 50px;
+}
+button {
+  border: transparent;
+  background-color: transparent;
+  font-size: 20px;
+}
+button:hover {
+  transition: linear 1s;
+  border-bottom: 1px solid black;
+}
+footer {
+  background-color: antiquewhite;
+  text-align: center;
+  height: 50px;
+  padding-top: 5px;
+}
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(resto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  font-size: 25px;
+}
+h1 {
+  font-size: 50px;
+  text-decoration: overline;
+}
+h2 {
+  font-size: 40px;
+}
+/* tabs */
+#home {
+  border-radius: 12px;
+  background-color: rgba(186, 172, 172, 0.45);
+  height: 90vh;
+  width: 50vw;
+  text-align: center;
+}
+#menu {
+  border-radius: 12px;
+  background-color: rgba(186, 172, 172, 0.45);
+  height: 90vh;
+  width: 50vw;
+  text-align: center;
+}
+.center {
+  margin-top: 200px;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 25px;
+  padding-left: 120px;
+}
+hr {
+  width: 400px;
+}
+input {
+  width: 300px;
+  height: 50px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 20px;
+  margin-top: 200px;
+}
+.message {
+  height: 200px;
+  width: 400px;
+}
+#contact {
+  border-radius: 12px;
+  background-color: rgba(186, 172, 172, 0.45);
+  height: 90vh;
+  width: 50vw;
+  text-align: center;
+}
+/* tab switching */
+[data-tab] {
+  display: none;
+}
+.active[data-tab] {
+  display: block;
+}
