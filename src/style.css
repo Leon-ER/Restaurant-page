@@ -59,6 +59,9 @@ h1 {
 h2 {
   font-size: 40px;
 }
+table{
+  padding-left: 120px;
+}
 /* tabs */
 #home {
   border-radius: 12px;
@@ -81,7 +84,6 @@ li {
   text-decoration: none;
   list-style-type: none;
   font-size: 25px;
-  padding-left: 120px;
 }
 hr {
   width: 400px;
